@@ -130,8 +130,9 @@ h2, .subtitle {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 200px;
+    height: 100px;
     overflow: hidden;
+    z-index: -1;
 }
 .bottom__car {
     position: absolute;
@@ -161,27 +162,8 @@ h2, .subtitle {
         padding: 0 10px;
     }
 }
-@media screen and (max-width: 720px) {
-
-}
-@media screen and (max-width: 660px) {
-
-}
-@media screen and (max-width: 625px) {
-    
-}
-@media screen and (max-width: 570px) {
-
-}
-@media screen and (max-width: 535px) {
-
-}
-@media screen and (max-width: 450px) {
-
-}
-@media screen and (max-width: 375px) {
-
-}
-@media screen and (max-width: 320px) {
-    
+@media screen and (max-width: 530px) {
+    .bottom {
+        position: relative;
+    }
 }
